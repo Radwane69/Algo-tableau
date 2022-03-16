@@ -7,25 +7,19 @@ describe('Array', function () {
   });
 });
 
-describe('str', function () {
-    describe('PascalTSnake()', function () {
-        it('should return test_controller', function () {
-            assert.equal(PascalTSnake([-2, ]), 'test_controller')
-        });
-        it('should return MovieAndBook', function () {
-            assert.equal(PascalTSnake('MovieAndBook'), ' movie_and_book')
-        });
-        it('should return App7Test', function () {
-            assert.equal(PascalTSnake('App7Test'), 'app7_test')
-        });
-        it('should return Home', function () {
-            assert.equal(PascalTSnake('Home'), 'home')
-        });
-        it('should return play-movie ', function () {
-            assert.equal(PascalTSnake('play-movie'), 'play-movie')
+describe('Array', function () {
+    describe('minimum()', function () {
+        it('should return -8', function () {
+            assert.equal(minimum([-2, -8, -3, -1]), -8)
         });
         it('should return 1', function () {
-            assert.equal(PascalTSnake(1), '1');
+            assert.equal(minimum([2, 8, 3, 1]), 1)
+        });
+        it('should return 3', function () {
+            assert.equal(minimum([3]), 3)
+        });
+        it('should return undefined', function () {
+            assert.equal(minimul([]), undefined)
         });
     });
 });
