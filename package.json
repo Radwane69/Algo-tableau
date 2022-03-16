@@ -1,0 +1,22 @@
+{
+  "name": "algotableau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001bex\u001b[C\u001b[C\u001b[C\u001b[C js/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radwane69/Algo-tableau.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radwane69/Algo-tableau/issues"
+  },
+  "homepage": "https://github.com/Radwane69/Algo-tableau#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
