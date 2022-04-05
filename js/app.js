@@ -6,7 +6,7 @@ export const minimum = (arr) => {
     }
   }
   return mini;
-};
+}
 
 export const moyenne = (Array) => {
   let moyenn = 0;
@@ -14,7 +14,7 @@ export const moyenne = (Array) => {
     moyenn + Array[i];
   }
   return moyenn / Array.length;
-};
+}
 
 export function sanslesstring(arr) {
   let arr = [];
