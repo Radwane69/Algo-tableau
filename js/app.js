@@ -16,10 +16,10 @@ export const moyenne = (Array) => {
   return moyenn / Array.length;
 }
 
-export function sanslesstring(arr) {
+export const sansChaine = (arr) => {
   let arr = [];
   for (let i = 0; i < arr.length; i++) {
-    if (typeof arr[i] != "string") {
+    if (typeof arr[i] == "string") {
       arr.push(arr[i]);
     }
   }

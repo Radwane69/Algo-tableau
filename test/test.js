@@ -44,3 +44,36 @@ describe("Array", function () {
     });
   });
 });
+
+import { sansChaine } from "../js/app.js";
+describe("Array", function () {
+  describe("sanslesstring()", function () {
+    it("should return [-4, -5, -6, -10]", function () {
+      assert.deepEqual(
+        sansChaine([-4, -5, -6, -10, "Sa dit koi!!!"]),
+        [-4, -5, -6, -10]
+      );
+    });
+    it("should return [5, 8, 4, 7]", function () {
+      assert.deepEqual(
+        sansChaine(["bonjour", 5, 8, 4, "coucou", 7]),
+        [5, 8, 4, 7]
+      );
+    });
+    it("should return [33]", function () {
+      assert.deepEqual(sansChaine(["okay", 33]), [33]);
+    });
+    it("should return []", function () {
+      assert.deepEqual(sansChaine([]), []);
+    });
+  });
+});
+
+import { impairetPair } from "../js/app.js";
+describe('Array', function(){
+    describe('ImpairetPair()', function(){
+        it("should return ", function(){
+            assert.deepEqual(impairetPair([-7, -20], [-12, -11]))
+        })
+    })
+})
