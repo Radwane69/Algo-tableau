@@ -70,10 +70,14 @@ describe("Array", function () {
 });
 
 import { impairetPair } from "../js/app.js";
-describe('Array', function(){
-    describe('ImpairetPair()', function(){
-        it("should return ", function(){
-            assert.deepEqual(impairetPair([-7, -20], [-12, -11]))
-        })
-    })
-})
+describe("Array", function () {
+  describe("ImpairetPair()", function () {
+    it("should return [7, 21], [12, 14]", function () {
+      assert.deepEqual(impairetPair([7, 21, 11, 13], [[7, 9], [12, 14]]));
+    });
+    it("should return", function () {
+      assert.deepEqual(impairetPair([10, 12, 14, 16, 18], [[]]))
+    }
+    )
+  });
+});

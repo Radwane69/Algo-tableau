@@ -13,7 +13,7 @@ export const moyenne = (Array) => {
   for (let i = 0; i < Array.length; i++) {
     moyenn + Array[i];
   }
-  return moyenn / Array.length;
+  return moyenne / Array.length;
 }
 
 export const sansChaine = (arr) => {
